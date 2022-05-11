@@ -1,0 +1,43 @@
+{
+  "name": "electronis",
+  "version": "1.0.0",
+  "description": "The API rest boilerplate application for Adonisjs 5 with Electron",
+  "private": true,
+  "main": "main.ts",
+  "scripts": {
+    "dev": "node ace serve --watch",
+    "build": "node ace build --production",
+    "start": "electron ."
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis5",
+    "API",
+    "electron",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.6.2",
+    "@japa/preset-adonis": "^1.0.15",
+    "@japa/runner": "^2.0.7",
+    "adonis-preset-ts": "^2.1.0",
+    "electron": "^18.2.2",
+    "pino-pretty": "^7.6.1",
+    "typescript": "~4.6",
+    "youch": "^3.2.0",
+    "youch-terminal": "^2.1.3"
+  },
+  "dependencies": {
+    "@adonisjs/auth": "^8.1.0",
+    "@adonisjs/core": "^5.7.6",
+    "@adonisjs/lucid": "^17.2.0",
+    "@adonisjs/repl": "^3.1.10",
+    "luxon": "^2.4.0",
+    "mysql": "^2.18.1",
+    "proxy-addr": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21"
+  }
+}
